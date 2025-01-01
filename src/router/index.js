@@ -35,9 +35,14 @@ const router = createRouter({
                     component: () => import("@/views/TodosView.vue"),
                 },
                 {
-                    path: "step",
-                    name: "step",
-                    component: () => import("@/components/step/VStep.vue"),
+                    path: "step1",
+                    name: "Step1",
+                    component: () => import("@/components/step1/VStep.vue"),
+                },
+                {
+                    path: "step2",
+                    name: "Step2",
+                    component: () => import("@/components/step2/VStep.vue"),
                 },
             ],
         },
